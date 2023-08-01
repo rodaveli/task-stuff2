@@ -1,0 +1,15 @@
+Flask==1.1.2
+Flask-SQLAlchemy==2.4.4
+psycopg2-binary==2.8.6
+Flask-Migrate==2.5.3
+Flask-Script==2.0.6
+Flask-Cors==3.0.10
+gunicorn==20.0.4
+react==17.0.2
+react-dom==17.0.2
+react-scripts==4.0.3
+babel-loader==8.2.2
+webpack==5.38.1
+jest==26.6.3
+axios==0.21.1
+python-dotenv==0.15.0
