@@ -1,4 +1,4 @@
-```python
+
 from flask import Flask, request, jsonify
 from models import db, Task, User
 from app import app
@@ -42,4 +42,3 @@ def update_user(user_id):
     user.points = data['points']
     db.session.commit()
     return jsonify({'message': 'USER_UPDATED', 'user': user.serialize()}), 200
-```
