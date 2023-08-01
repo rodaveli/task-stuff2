@@ -1,4 +1,3 @@
-```python
 from flask_sqlalchemy import SQLAlchemy
 from datetime import datetime
 
@@ -41,4 +40,3 @@ class Task(db.Model):
     def complete(self):
         self.completed = True
         db.session.commit()
-```
