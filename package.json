@@ -1,0 +1,30 @@
+{
+  "name": "flask-react-app",
+  "version": "1.0.0",
+  "description": "A simple web app using Flask and React framework",
+  "main": "static/js/main.js",
+  "scripts": {
+    "start": "webpack --mode development",
+    "build": "webpack --mode production",
+    "test": "jest"
+  },
+  "keywords": ["flask", "react", "postgresql"],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "axios": "^0.21.1"
+  },
+  "devDependencies": {
+    "webpack": "^5.38.1",
+    "webpack-cli": "^4.7.2",
+    "babel-loader": "^8.2.2",
+    "babel-core": "^6.26.3",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "jest": "^27.0.6",
+    "enzyme": "^3.11.0",
+    "enzyme-adapter-react-16": "^1.15.6"
+  }
+}
